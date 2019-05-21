@@ -1,0 +1,384 @@
+-----------Exception Details on  5/14/2019 11:17:24 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 11:17:24 AM
+
+Error Line No : ssword)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Could not find stored procedure 'GetUserByCredentials'.
+
+ Error Page Url: http://localhost:62580/Login.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 11:19:09 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 11:19:09 AM
+
+Error Line No : ssword)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Could not find stored procedure 'GetUserByCredentialsdd'.
+
+ Error Page Url: http://localhost:62580/Login.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 11:21:33 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 11:21:33 AM
+
+Error Line No : line 41
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/Login.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 4:27:50 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 4:27:50 PM
+
+Error Line No : line 33
+
+Error Message: HttpException
+
+Exception Type: System.Web.HttpException
+
+Error Location : DataBinding: 'System.Data.DataRowView' does not contain a property with the name 'Department'.
+
+ Error Page Url: http://localhost:62580/DashBoard.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 5:40:26 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 5:40:26 PM
+
+Error Line No : line 87
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 5:41:36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 5:41:36 PM
+
+Error Line No : ine 155
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 5:41:36 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 5:41:36 PM
+
+Error Line No : line 86
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 5:42:06 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 5:42:06 PM
+
+Error Line No : line 88
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 5:42:49 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 5:42:49 PM
+
+Error Line No : line 88
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 5:44:43 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 5:44:43 PM
+
+Error Line No : line 88
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx?id=5
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 5:45:41 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 5:45:41 PM
+
+Error Line No : line 88
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx?id=4
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 5:46:45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 5:46:45 PM
+
+Error Line No : line 90
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx?id=5
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 5:47:04 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 5:47:04 PM
+
+Error Line No : line 90
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx?id=5
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 6:10:34 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 6:10:34 PM
+
+Error Line No : line 99
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx?id=3
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 6:10:40 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 6:10:40 PM
+
+Error Line No : line 99
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx?id=4
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/14/2019 6:10:45 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/14/2019 6:10:45 PM
+
+Error Line No : line 99
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx?id=5
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

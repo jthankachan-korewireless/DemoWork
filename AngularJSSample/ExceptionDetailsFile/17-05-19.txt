@@ -1,0 +1,24 @@
+-----------Exception Details on  5/17/2019 11:34:17 AM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/17/2019 11:34:17 AM
+
+Error Line No : line 93
+
+Error Message: FormatException
+
+Exception Type: System.FormatException
+
+Error Location : Input string was not in a correct format.
+
+ Error Page Url: http://localhost:50216/SampleData.asmx/DeleteDepartment
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

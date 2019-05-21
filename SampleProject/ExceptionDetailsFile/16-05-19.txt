@@ -1,0 +1,48 @@
+-----------Exception Details on  5/16/2019 12:56:24 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/16/2019 12:56:24 PM
+
+Error Line No : line 99
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  5/16/2019 12:56:32 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 5/16/2019 12:56:32 PM
+
+Error Line No : line 99
+
+Error Message: ThreadAbortException
+
+Exception Type: System.Threading.ThreadAbortException
+
+Error Location : Thread was being aborted.
+
+ Error Page Url: http://localhost:62580/DepartmentForm.aspx?id=10
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

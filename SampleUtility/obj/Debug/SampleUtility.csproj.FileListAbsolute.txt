@@ -1,0 +1,9 @@
+C:\Users\jthankachan\source\repos\SampleProject\SampleUtility\obj\Debug\SampleUtility.csprojAssemblyReference.cache
+C:\Users\jthankachan\source\repos\SampleProject\SampleUtility\obj\Debug\SampleUtility.csproj.CoreCompileInputs.cache
+C:\Users\jthankachan\source\repos\SampleProject\SampleUtility\bin\Debug\SampleUtility.dll
+C:\Users\jthankachan\source\repos\SampleProject\SampleUtility\bin\Debug\SampleUtility.pdb
+C:\Users\jthankachan\source\repos\SampleProject\SampleUtility\obj\Debug\SampleUtility.dll
+C:\Users\jthankachan\source\repos\SampleProject\SampleUtility\obj\Debug\SampleUtility.pdb
+C:\Users\jthankachan\source\repos\SampleProject\SampleUtility\bin\Debug\Newtonsoft.Json.dll
+C:\Users\jthankachan\source\repos\SampleProject\SampleUtility\bin\Debug\Newtonsoft.Json.xml
+C:\Users\jthankachan\source\repos\SampleProject\SampleUtility\obj\Debug\SampleUtility.csproj.CopyComplete

@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="SampleProject.Master" %>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 23px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            <table style="margin: auto; width: 800px; height: 600px;">
+                <tr style="background-color: cadetblue; text-align: center; height: 200px;">
+                    <td style="color: green; font-size: 50px;">Welcome to Department Carrier</td>
+                </tr>
+
+                <tr>
+
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr style="background-color: cadetblue; text-align: center;">
+                    <td>@All rights reserved</td>
+                </tr>
+
+            </table>
+
+        </div>
+    </form>
+</body>
+</html>

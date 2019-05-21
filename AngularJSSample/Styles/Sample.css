@@ -1,0 +1,14 @@
+﻿.dvtable-responsive {
+    height: 1000px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.tblDashBoard th, td {
+    border: 1px solid black;
+}
+
+.tblDashBoard {
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+} 

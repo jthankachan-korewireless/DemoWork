@@ -1,0 +1,49 @@
+﻿<div style="margin-top:10%;margin-left:10%;">
+    <h2> Setup Logins </h2>
+    <table border="1" cellpadding="2">
+        <tr>
+            <th>
+                <button type="button" ng-click="$ctrl.insertrow($index)"> New </button>
+            </th>
+            <th></th>
+            <th> Login </th>
+            <th>Name </th>
+            <th>Email</th>
+        </tr>
+        <tr ng-show="$ctrl.editrowindex==$index">
+            <td>
+                <button type="button" ng-click="$ctrl.ignorerow($index); $event.stopPropagation();"> Ignore  </button>
+            </td>
+            <td>
+                <button type="button" ng-click="$ctrl.addrow($ctrl.newrow); $event.stopPropagation();"> Save  </button>
+            </td>
+            <td>
+                <input placeholder="Login" type="text" ng-model="$ctrl.newrow.login" />
+            </td>
+            <td>
+                <input placeholder="Name" type="text" ng-model="$ctrl.newrow.name" />
+            </td>
+            <td>
+                <input placeholder="EmailID" type="text" ng-model="$ctrl.newrow.emailid" />
+            </td>
+
+        </tr>
+        <tr ng-repeat="rec in $ctrl.rows | filter: $ctrl.query | orderBy:$ctrl.orderProp">
+            <td>
+                <button type="button" ng-show="$ctrl.editrowindex!=$index" ng-click="$ctrl.deleterow(rec,$index); $event.stopPropagation();">Delete</button>
+                <button type="button" ng-show="$ctrl.editrowindex==$index" ng-click="$ctrl.revertrow(rec,$index); $event.stopPropagation();">Revert</button>
+            </td>
+            <td>
+                <button type="button" ng-show="$ctrl.editrowindex!=$index" ng-click="$ctrl.editrow(rec,$index); $event.stopPropagation();">Edit</button>
+                <button type="button" ng-show="$ctrl.editrowindex==$index" ng-click="$ctrl.updaterow(rec,$index); $event.stopPropagation();">Save</button>
+            </td>
+            <td>
+                <label ng-show="$ctrl.editrowindex!=$index"> {{rec.login}}</label>
+                <input ng-model="rec.login" type="text" ng-show="$ctrl.editrowindex==$index" />
+            </td>
+            <td>{{rec.name}}</td>
+            <td>{{rec.emailid}}</td>
+        </tr>
+    </table>
+
+</div>
