@@ -27,9 +27,9 @@
 <body>
     <div class="container">
 
-        <div class="login-page">
+        <div class="login-page" data-ng-app="myApp" data-ng-controller="LoginController">
             <div class="form">
-                <form data-ng-app="myApp" data-ng-controller="LoginController" name="loginForm" data-ng-submit="Login()">
+                <form name="loginForm" data-ng-submit="Login()">
                     <input type="text" placeholder="username" data-ng-model="UserName" name="UserEmail" ng-class="{red: ((loginForm.UserEmail.$dirty) && loginForm.UserEmail.$error.required )}" required autofocus />
                     <input type="password" placeholder="password" name="UserPassword" data-ng-model="Password" ng-class="{red:(loginForm.UserPassword.$dirty || loginForm) && myForm.UserPassword.$error.required}" required autofocus />
                     <input type="submit" id="btnLogin" value="Login" class="btn-reg-log" />
@@ -43,7 +43,7 @@
                     <input type="email" placeholder="email address" data-ng-model="UserEmailAddress" name="UserEmailAddress" ng-class="{red: ((registerForm.UserEmailAddress.$dirty || submitted) && registerForm.UserEmailAddress.$error.required )}" required autofocus />
                     <input type="submit" id="btnRegisetr" value="create" class="btn-reg-log" />
                     <p class="message">Already registered? <a href="#" onclick="fnToggle()">Sign In</a></p>
-                    <%--<p class="message_error">{{ Regerror }}</p>--%>
+                    <p class="message_error">{{ Regerror }}</p>
                 </form>
             </div>
         </div>

@@ -104,10 +104,14 @@
     <Content Include="Scripts\Controller1.js" />
     <Content Include="Scripts\default.js" />
     <Content Include="Scripts\ngStorage.min.js" />
+    <Content Include="Scripts\perfect-scrollbar.min.js" />
     <Content Include="Scripts\Service.js" />
     <Content Include="Scripts\Template.html" />
     <Content Include="Styles\login.css" />
+    <Content Include="Styles\main.css" />
+    <Content Include="Styles\perfect-scrollbar.css" />
     <Content Include="Styles\Sample.css" />
+    <Content Include="Styles\util.css" />
     <Content Include="tableView.html" />
     <Content Include="Web.config" />
   </ItemGroup>

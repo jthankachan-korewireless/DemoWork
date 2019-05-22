@@ -4,16 +4,14 @@
 
 app.controller('LoginController', ['$scope', '$http', '$rootScope', function ($scope, $http, $rootScope) {
 
-$scope.$watch("myForm.$valid", function (TrueOrFalse) {
-    $scope.IsFormValid = TrueOrFalse;
-});
+    $scope.$watch("myForm.$valid", function (TrueOrFalse) {
+        $scope.IsFormValid = TrueOrFalse;
+    });
 
     $scope.Login = function () {
         var user = {};
         user.userName = $scope.UserName;
         user.password = $scope.Password;
-        
-
 
         if ($scope.UserName != undefined && $scope.Password != undefined) {
             var post = $http({
@@ -25,7 +23,7 @@ $scope.$watch("myForm.$valid", function (TrueOrFalse) {
             });
 
             post.then(function (data) {
-                if (data.data.d == "true") {
+                if (data.data.d == "true") {                    
                     window.location.href = "DashBoard.aspx";
                 }
                 else {
@@ -54,8 +52,9 @@ $scope.$watch("myForm.$valid", function (TrueOrFalse) {
 
             post.then(function (data) {
                 if (data.data.d == "true") {
+                    alert("User created successfully.");
                     window.location.href = "login.aspx";
-                }     
+                }
                 else {
                     $scope.Regerror = "Already have an account with username. Please try another!";
                 }
@@ -115,13 +114,10 @@ app.controller('DashBoardCtrl', ['$scope', '$http', '$rootScope', '$localStorage
 
     $scope.FormOpen = function () {
         window.location = "Form.aspx";
-        localStorage.depUSerID = "";
-        localStorage.name = "";
-        localStorage.departmentID = "";
+        localStorage.clear();
     }
 
     $scope.EditClick = function (records) {
-        debugger;
         if (records.ID > 0) {
             localStorage.depUSerID = records.ID;
             localStorage.name = records.Name;
@@ -136,7 +132,6 @@ app.controller('DashBoardCtrl', ['$scope', '$http', '$rootScope', '$localStorage
 }]);
 
 app.controller('FromCtrl', ['$scope', '$http', '$rootScope', '$localStorage', function ($scope, $http, $rootScope, $localStorage) {
-    debugger;
 
     $scope.GetDepartmentItems = function () {
         var post = $http({
@@ -166,7 +161,6 @@ app.controller('FromCtrl', ['$scope', '$http', '$rootScope', '$localStorage', fu
     }
 
     $scope.AddForm = function () {
-        debugger;
         var user = {};
         user.name = $scope.Name;
         user.department = $scope.Department;

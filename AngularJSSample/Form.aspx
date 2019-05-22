@@ -13,7 +13,7 @@
 <body ng-app="myApp">
     <div ng-controller="FromCtrl" ng-init="GetDepartmentItems()">
 
-        <div>
+        <div class="form">
             <form name="formEdit" data-ng-submit="AddForm()" >
             <table style="margin: auto;">
                 <tr>
@@ -46,7 +46,20 @@
                     </td>
                 </tr>
             </table>
+                </form>
         </div>
+
+        <%------------------%>
+
+        <!DOCTYPE html>
+
+
+
+	
+
+
+
+        <%-----------------------------%>
     </div>
 </body>
 </html>
